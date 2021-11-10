@@ -1,0 +1,82 @@
+
+    <!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>kidney-disease</title>
+            
+    
+            
+          </head>
+        <style>
+            * {
+      box-sizing: border-box;
+    }
+    
+         body{
+          
+      background-color: #f1f1f1;
+      padding: 20px;
+      font-family: Arial;
+    }
+    
+    /* Center website */
+    .main {
+      max-width: 1000px;
+      margin: auto;
+    }
+      
+     
+      
+     
+      
+    
+    
+    p{
+        
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 2%;
+        
+    }
+    h3{
+        
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 2%;
+        
+    }
+    .content {
+      background-color: white;
+      padding: 10px;
+      align-items: center;
+    }
+    .b{
+    padding-left: 2%;
+
+}
+        </style>
+        
+    <!-- Adding styles like colour, height, width, border to our html page -->
+    <body>
+    
+    
+    
+    <h1>
+        KIDNEY DISEASE </h1><hr>
+        <br>
+        <div class="content">
+      <p>
+        Chronic kidney disease, also called chronic kidney failure, describes the gradual loss of kidney function. <br><br>
+        Your kidneys filter wastes and excess fluids from your blood, which are then excreted in your urine. <br><br>
+        When chronic kidney disease reaches an advanced stage, dangerous levels of fluid, electrolytes and wastes can build up in your body. <br><br>
+        </p>
+        <h3>Symptoms</h3><p>Nausea<br><br>Vomiting.<br><br>Fatigue and weakness.<br><br> Muscle twitches and cramps.<br><br></p>
+        <div class = "b">  <button class="card-btn"><a href = "{{url_for('predict_kidney') }}">Take test</a><span>&rarr;</span></button>
+        </div>
+        
+      </div> 
+    </body>
+    </html>
